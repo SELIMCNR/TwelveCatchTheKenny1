@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 myImg.setY(rndmY);
             }
             public void onFinish(){
-                textView.setText("Time is Finish!");
+                textView.setText("Time is Finished!");
                 myImg.setVisibility(View.INVISIBLE);
 
                 AlertDialog.Builder alert = new AlertDialog.Builder(MainActivity.this);
